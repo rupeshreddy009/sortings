@@ -6,4 +6,4 @@ def bubble_sort(array):
             if array[i]>array[i+1]:
                 array[i], array[i+1] = array[i+1], array[i]
                 sorted = False
-    return lis
+    return array
